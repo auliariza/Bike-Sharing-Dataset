@@ -31,7 +31,7 @@ day_df['weather'] = day_df['weather'].map({1: 'Clear', 2: 'Mist/Cloudy', 3: 'Lig
 day_df.head()
 
 # Menyiapkan data day_df
-hour_df = pd.read_csv("hour.csv")
+hour_df = pd.read_csv("dashboard/hour.csv")
 
 hour_df.rename(columns={
     'dteday': 'date',
